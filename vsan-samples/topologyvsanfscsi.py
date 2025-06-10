@@ -184,7 +184,8 @@ def main():
 
    # Find OVF download url
    print("Finding OVF download url ...")
-   ovfUrl = vcfs.FindOvfDownloadUrl(cluster)
+   #ovfUrl = vcfs.FindOvfDownloadUrl(cluster)
+   ovfUrl = "https://build-squid.vcfd.broadcom.net/build/mts/release/bora-24762657/publish/vdfs-fsvm/VMware-vSAN-File-Services-Appliance-9.1.0.0.24762657_OVF10.ovf"
    if not ovfUrl:
       print("Failed to find the OVF download url.")
       return -1
